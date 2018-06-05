@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D767FD3620C6836900AA6084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD3520C6836900AA6084 /* AppDelegate.swift */; };
-		D767FD3820C6836900AA6084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD3720C6836900AA6084 /* ViewController.swift */; };
 		D767FD3B20C6836900AA6084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3920C6836900AA6084 /* Main.storyboard */; };
 		D767FD3D20C6837000AA6084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3C20C6837000AA6084 /* Assets.xcassets */; };
 		D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3E20C6837000AA6084 /* LaunchScreen.storyboard */; };
+		D767FD4A20C6854900AA6084 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D767FD4920C6854900AA6084 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D767FD3220C6836900AA6084 /* github-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767FD3520C6836900AA6084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D767FD3720C6836900AA6084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D767FD3A20C6836900AA6084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D767FD3C20C6837000AA6084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D767FD3F20C6837000AA6084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D767FD4120C6837000AA6084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D767FD4920C6854900AA6084 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,30 @@
 		D767FD3420C6836900AA6084 /* github-api */ = {
 			isa = PBXGroup;
 			children = (
+				D767FD4720C684AB00AA6084 /* Screens */,
 				D767FD3520C6836900AA6084 /* AppDelegate.swift */,
-				D767FD3720C6836900AA6084 /* ViewController.swift */,
 				D767FD3920C6836900AA6084 /* Main.storyboard */,
 				D767FD3C20C6837000AA6084 /* Assets.xcassets */,
 				D767FD3E20C6837000AA6084 /* LaunchScreen.storyboard */,
 				D767FD4120C6837000AA6084 /* Info.plist */,
+				D767FD4920C6854900AA6084 /* Podfile */,
 			);
 			path = "github-api";
+			sourceTree = "<group>";
+		};
+		D767FD4720C684AB00AA6084 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D767FD4820C684B600AA6084 /* Login */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D767FD4820C684B600AA6084 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +140,7 @@
 			files = (
 				D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */,
 				D767FD3D20C6837000AA6084 /* Assets.xcassets in Resources */,
+				D767FD4A20C6854900AA6084 /* Podfile in Resources */,
 				D767FD3B20C6836900AA6084 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D767FD3820C6836900AA6084 /* ViewController.swift in Sources */,
 				D767FD3620C6836900AA6084 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
