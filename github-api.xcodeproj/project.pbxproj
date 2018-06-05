@@ -7,19 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF8C5678FD29A22B9EB86C9C /* Pods_github_api.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7CD9EBE738B4F09B11C16F /* Pods_github_api.framework */; };
 		D767FD3620C6836900AA6084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD3520C6836900AA6084 /* AppDelegate.swift */; };
 		D767FD3B20C6836900AA6084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3920C6836900AA6084 /* Main.storyboard */; };
 		D767FD3D20C6837000AA6084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3C20C6837000AA6084 /* Assets.xcassets */; };
 		D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3E20C6837000AA6084 /* LaunchScreen.storyboard */; };
+		D767FD5320C6888B00AA6084 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D767FD5120C6888A00AA6084 /* LoginViewController.xib */; };
+		D767FD5420C6888B00AA6084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5220C6888B00AA6084 /* LoginViewController.swift */; };
+		D767FD5620C6893800AA6084 /* LoginWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5520C6893800AA6084 /* LoginWebView.swift */; };
+		D767FD5920C6899400AA6084 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5820C6899400AA6084 /* Constants.swift */; };
+		D767FD5C20C68BBC00AA6084 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5B20C68BBC00AA6084 /* KeychainService.swift */; };
+		D767FD5E20C68BCC00AA6084 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5D20C68BCC00AA6084 /* APIProvider.swift */; };
+		D767FD6020C68BDF00AA6084 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5F20C68BDF00AA6084 /* GithubAPI.swift */; };
+		D767FD6320C68FFD00AA6084 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */; };
+		D779D0CE20C6E7900037CE81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C7CD9EBE738B4F09B11C16F /* Pods_github_api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_github_api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B949413886D6E505DF28A89 /* Pods-github-api.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github-api.release.xcconfig"; path = "Pods/Target Support Files/Pods-github-api/Pods-github-api.release.xcconfig"; sourceTree = "<group>"; };
 		D767FD3220C6836900AA6084 /* github-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D767FD3520C6836900AA6084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D767FD3A20C6836900AA6084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D767FD3C20C6837000AA6084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D767FD3F20C6837000AA6084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D767FD4120C6837000AA6084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D767FD5120C6888A00AA6084 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D767FD5220C6888B00AA6084 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D767FD5520C6893800AA6084 /* LoginWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebView.swift; sourceTree = "<group>"; };
+		D767FD5820C6899400AA6084 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D767FD5B20C68BBC00AA6084 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		D767FD5D20C68BCC00AA6084 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		D767FD5F20C68BDF00AA6084 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E231858242C297A490B39B55 /* Pods-github-api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github-api.debug.xcconfig"; path = "Pods/Target Support Files/Pods-github-api/Pods-github-api.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8C5678FD29A22B9EB86C9C /* Pods_github_api.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230054111D5E7552621F6A02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E231858242C297A490B39B55 /* Pods-github-api.debug.xcconfig */,
+				8B949413886D6E505DF28A89 /* Pods-github-api.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C701F96F6615BED78B2C90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CD9EBE738B4F09B11C16F /* Pods_github_api.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D767FD2920C6836900AA6084 = {
 			isa = PBXGroup;
 			children = (
 				D767FD3420C6836900AA6084 /* github-api */,
 				D767FD3320C6836900AA6084 /* Products */,
+				230054111D5E7552621F6A02 /* Pods */,
+				6C701F96F6615BED78B2C90D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +94,10 @@
 		D767FD3420C6836900AA6084 /* github-api */ = {
 			isa = PBXGroup;
 			children = (
+				D767FD6120C68FD600AA6084 /* Extensions */,
 				D767FD4720C684AB00AA6084 /* Screens */,
+				D767FD5720C6897600AA6084 /* Helpers */,
+				D767FD5A20C68B8F00AA6084 /* API */,
 				D767FD3520C6836900AA6084 /* AppDelegate.swift */,
 				D767FD3920C6836900AA6084 /* Main.storyboard */,
 				D767FD3C20C6837000AA6084 /* Assets.xcassets */,
@@ -73,8 +118,38 @@
 		D767FD4820C684B600AA6084 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				D767FD5220C6888B00AA6084 /* LoginViewController.swift */,
+				D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */,
+				D767FD5120C6888A00AA6084 /* LoginViewController.xib */,
+				D767FD5520C6893800AA6084 /* LoginWebView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D767FD5720C6897600AA6084 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D767FD5820C6899400AA6084 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D767FD5A20C68B8F00AA6084 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D767FD5B20C68BBC00AA6084 /* KeychainService.swift */,
+				D767FD5D20C68BCC00AA6084 /* APIProvider.swift */,
+				D767FD5F20C68BDF00AA6084 /* GithubAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D767FD6120C68FD600AA6084 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D767FD4420C6837000AA6084 /* Build configuration list for PBXNativeTarget "github-api" */;
 			buildPhases = (
+				8731A62223398EA05FE7F618 /* [CP] Check Pods Manifest.lock */,
 				D767FD2E20C6836900AA6084 /* Sources */,
 				D767FD2F20C6836900AA6084 /* Frameworks */,
 				D767FD3020C6836900AA6084 /* Resources */,
+				DDF25EE180963AD86DB12738 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D767FD5320C6888B00AA6084 /* LoginViewController.xib in Resources */,
 				D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */,
 				D767FD3D20C6837000AA6084 /* Assets.xcassets in Resources */,
 				D767FD3B20C6836900AA6084 /* Main.storyboard in Resources */,
@@ -143,12 +221,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8731A62223398EA05FE7F618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-github-api-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF25EE180963AD86DB12738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-github-api/Pods-github-api-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper+Realm/ObjectMapper_Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapperAdditions/ObjectMapperAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper_Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapperAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-github-api/Pods-github-api-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D767FD2E20C6836900AA6084 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D767FD6320C68FFD00AA6084 /* UIViewController+Extension.swift in Sources */,
+				D767FD5420C6888B00AA6084 /* LoginViewController.swift in Sources */,
+				D767FD5620C6893800AA6084 /* LoginWebView.swift in Sources */,
 				D767FD3620C6836900AA6084 /* AppDelegate.swift in Sources */,
+				D767FD5C20C68BBC00AA6084 /* KeychainService.swift in Sources */,
+				D767FD5920C6899400AA6084 /* Constants.swift in Sources */,
+				D767FD6020C68BDF00AA6084 /* GithubAPI.swift in Sources */,
+				D767FD5E20C68BCC00AA6084 /* APIProvider.swift in Sources */,
+				D779D0CE20C6E7900037CE81 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +449,7 @@
 		};
 		D767FD4520C6837000AA6084 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E231858242C297A490B39B55 /* Pods-github-api.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +467,7 @@
 		};
 		D767FD4620C6837000AA6084 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B949413886D6E505DF28A89 /* Pods-github-api.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
