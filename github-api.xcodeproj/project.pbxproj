@@ -14,13 +14,27 @@
 		D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D767FD3E20C6837000AA6084 /* LaunchScreen.storyboard */; };
 		D767FD5320C6888B00AA6084 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D767FD5120C6888A00AA6084 /* LoginViewController.xib */; };
 		D767FD5420C6888B00AA6084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5220C6888B00AA6084 /* LoginViewController.swift */; };
-		D767FD5620C6893800AA6084 /* LoginWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5520C6893800AA6084 /* LoginWebView.swift */; };
+		D767FD5620C6893800AA6084 /* CustomWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5520C6893800AA6084 /* CustomWebView.swift */; };
 		D767FD5920C6899400AA6084 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5820C6899400AA6084 /* Constants.swift */; };
 		D767FD5C20C68BBC00AA6084 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5B20C68BBC00AA6084 /* KeychainService.swift */; };
 		D767FD5E20C68BCC00AA6084 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5D20C68BCC00AA6084 /* APIProvider.swift */; };
 		D767FD6020C68BDF00AA6084 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD5F20C68BDF00AA6084 /* GithubAPI.swift */; };
 		D767FD6320C68FFD00AA6084 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */; };
+		D777FE5320C80BE5009DB78E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777FE5120C80BE5009DB78E /* DetailsViewController.swift */; };
+		D777FE5420C80BE5009DB78E /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D777FE5220C80BE5009DB78E /* DetailsViewController.xib */; };
+		D777FE5720C8F5E9009DB78E /* PageLIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = D777FE5620C8F5E9009DB78E /* PageLIst.swift */; };
 		D779D0CE20C6E7900037CE81 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */; };
+		D779D0D020C72A880037CE81 /* RealmMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0CF20C72A880037CE81 /* RealmMigrator.swift */; };
+		D779D0D320C72C580037CE81 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0D220C72C580037CE81 /* Repository.swift */; };
+		D779D0D920C730210037CE81 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0D720C730210037CE81 /* SearchViewController.swift */; };
+		D779D0DA20C730210037CE81 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D779D0D820C730210037CE81 /* SearchViewController.xib */; };
+		D779D0DC20C730350037CE81 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0DB20C730350037CE81 /* SearchViewModel.swift */; };
+		D779D0DE20C731030037CE81 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0DD20C731030037CE81 /* NavigationRouter.swift */; };
+		D779D0E520C737640037CE81 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0E420C737640037CE81 /* UITableViewCell+Extension.swift */; };
+		D779D0E720C737C90037CE81 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0E620C737C90037CE81 /* UITableView+Extension.swift */; };
+		D779D0EB20C7385E0037CE81 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0E920C7385E0037CE81 /* SearchTableViewCell.swift */; };
+		D779D0EC20C7385E0037CE81 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D779D0EA20C7385E0037CE81 /* SearchTableViewCell.xib */; };
+		D779D0EE20C73DC40037CE81 /* Response+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D0ED20C73DC40037CE81 /* Response+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +48,27 @@
 		D767FD4120C6837000AA6084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D767FD5120C6888A00AA6084 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D767FD5220C6888B00AA6084 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D767FD5520C6893800AA6084 /* LoginWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebView.swift; sourceTree = "<group>"; };
+		D767FD5520C6893800AA6084 /* CustomWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebView.swift; sourceTree = "<group>"; };
 		D767FD5820C6899400AA6084 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D767FD5B20C68BBC00AA6084 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		D767FD5D20C68BCC00AA6084 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		D767FD5F20C68BDF00AA6084 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
 		D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D777FE5120C80BE5009DB78E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D777FE5220C80BE5009DB78E /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		D777FE5620C8F5E9009DB78E /* PageLIst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLIst.swift; sourceTree = "<group>"; };
 		D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D779D0CF20C72A880037CE81 /* RealmMigrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmMigrator.swift; sourceTree = "<group>"; };
+		D779D0D220C72C580037CE81 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		D779D0D720C730210037CE81 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D779D0D820C730210037CE81 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		D779D0DB20C730350037CE81 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D779D0DD20C731030037CE81 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		D779D0E420C737640037CE81 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		D779D0E620C737C90037CE81 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		D779D0E920C7385E0037CE81 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		D779D0EA20C7385E0037CE81 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		D779D0ED20C73DC40037CE81 /* Response+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response+Extension.swift"; sourceTree = "<group>"; };
 		E231858242C297A490B39B55 /* Pods-github-api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-github-api.debug.xcconfig"; path = "Pods/Target Support Files/Pods-github-api/Pods-github-api.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +101,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D74376EA20C9614000955954 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D767FD5520C6893800AA6084 /* CustomWebView.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		D767FD2920C6836900AA6084 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +130,9 @@
 		D767FD3420C6836900AA6084 /* github-api */ = {
 			isa = PBXGroup;
 			children = (
+				D74376EA20C9614000955954 /* Custom Classes */,
+				D779D0E820C7383C0037CE81 /* Cells */,
+				D779D0D120C72AD30037CE81 /* Model */,
 				D767FD6120C68FD600AA6084 /* Extensions */,
 				D767FD4720C684AB00AA6084 /* Screens */,
 				D767FD5720C6897600AA6084 /* Helpers */,
@@ -111,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				D767FD4820C684B600AA6084 /* Login */,
+				D779D0D620C72FF60037CE81 /* Search */,
+				D777FE5520C80BEC009DB78E /* Details */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -119,9 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				D767FD5220C6888B00AA6084 /* LoginViewController.swift */,
-				D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */,
 				D767FD5120C6888A00AA6084 /* LoginViewController.xib */,
-				D767FD5520C6893800AA6084 /* LoginWebView.swift */,
+				D779D0CD20C6E7900037CE81 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -130,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				D767FD5820C6899400AA6084 /* Constants.swift */,
+				D779D0CF20C72A880037CE81 /* RealmMigrator.swift */,
+				D779D0DD20C731030037CE81 /* NavigationRouter.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -148,8 +190,48 @@
 			isa = PBXGroup;
 			children = (
 				D767FD6220C68FFD00AA6084 /* UIViewController+Extension.swift */,
+				D779D0E420C737640037CE81 /* UITableViewCell+Extension.swift */,
+				D779D0E620C737C90037CE81 /* UITableView+Extension.swift */,
+				D779D0ED20C73DC40037CE81 /* Response+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D777FE5520C80BEC009DB78E /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D777FE5120C80BE5009DB78E /* DetailsViewController.swift */,
+				D777FE5220C80BE5009DB78E /* DetailsViewController.xib */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		D779D0D120C72AD30037CE81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D779D0D220C72C580037CE81 /* Repository.swift */,
+				D777FE5620C8F5E9009DB78E /* PageLIst.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D779D0D620C72FF60037CE81 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D779D0D720C730210037CE81 /* SearchViewController.swift */,
+				D779D0D820C730210037CE81 /* SearchViewController.xib */,
+				D779D0DB20C730350037CE81 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D779D0E820C7383C0037CE81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D779D0E920C7385E0037CE81 /* SearchTableViewCell.swift */,
+				D779D0EA20C7385E0037CE81 /* SearchTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,10 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D777FE5420C80BE5009DB78E /* DetailsViewController.xib in Resources */,
 				D767FD5320C6888B00AA6084 /* LoginViewController.xib in Resources */,
 				D767FD4020C6837000AA6084 /* LaunchScreen.storyboard in Resources */,
 				D767FD3D20C6837000AA6084 /* Assets.xcassets in Resources */,
+				D779D0DA20C730210037CE81 /* SearchViewController.xib in Resources */,
 				D767FD3B20C6836900AA6084 /* Main.storyboard in Resources */,
+				D779D0EC20C7385E0037CE81 /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +386,23 @@
 			files = (
 				D767FD6320C68FFD00AA6084 /* UIViewController+Extension.swift in Sources */,
 				D767FD5420C6888B00AA6084 /* LoginViewController.swift in Sources */,
-				D767FD5620C6893800AA6084 /* LoginWebView.swift in Sources */,
+				D767FD5620C6893800AA6084 /* CustomWebView.swift in Sources */,
 				D767FD3620C6836900AA6084 /* AppDelegate.swift in Sources */,
 				D767FD5C20C68BBC00AA6084 /* KeychainService.swift in Sources */,
+				D779D0E520C737640037CE81 /* UITableViewCell+Extension.swift in Sources */,
+				D779D0DC20C730350037CE81 /* SearchViewModel.swift in Sources */,
+				D779D0D320C72C580037CE81 /* Repository.swift in Sources */,
+				D779D0D920C730210037CE81 /* SearchViewController.swift in Sources */,
+				D779D0EB20C7385E0037CE81 /* SearchTableViewCell.swift in Sources */,
+				D779D0DE20C731030037CE81 /* NavigationRouter.swift in Sources */,
+				D779D0E720C737C90037CE81 /* UITableView+Extension.swift in Sources */,
 				D767FD5920C6899400AA6084 /* Constants.swift in Sources */,
+				D777FE5320C80BE5009DB78E /* DetailsViewController.swift in Sources */,
+				D779D0EE20C73DC40037CE81 /* Response+Extension.swift in Sources */,
 				D767FD6020C68BDF00AA6084 /* GithubAPI.swift in Sources */,
 				D767FD5E20C68BCC00AA6084 /* APIProvider.swift in Sources */,
+				D779D0D020C72A880037CE81 /* RealmMigrator.swift in Sources */,
+				D777FE5720C8F5E9009DB78E /* PageLIst.swift in Sources */,
 				D779D0CE20C6E7900037CE81 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
