@@ -22,10 +22,6 @@ target 'github-api' do
     
     # Other
     # pod 'RxMediaPicker'
-    pod 'SwiftDate', '~> 4.5'
     pod 'KeychainAccess'
-    
-    # UI
-    pod 'SDWebImage', '~> 4.2'
     
 end
