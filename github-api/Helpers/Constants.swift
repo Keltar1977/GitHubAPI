@@ -9,7 +9,7 @@
 import Foundation
 
 struct APIConstants {
-    static let base = "https://api.github.com/graphql"
+    static let base = "https://api.github.com"
     
     static let authURL = "https://github.com/login/oauth"
     

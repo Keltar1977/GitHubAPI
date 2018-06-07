@@ -15,10 +15,10 @@ import Moya_ObjectMapper
 
 class LoginViewController: UIViewController {
     
-    let provider = APIProvider.provider()
-    let disposeBag = DisposeBag()
-    var viewModel: LoginViewModel!
-    @IBOutlet weak var webView: LoginWebView!
+    private let provider = APIProvider.provider()
+    private let disposeBag = DisposeBag()
+    private var viewModel: LoginViewModel!
+    @IBOutlet weak var webView: CustomWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         setupRx()
@@ -26,11 +26,12 @@ class LoginViewController: UIViewController {
         webView.requestForLogin()
     }
     
-    func setupRx() {
+    private func setupRx() {
         viewModel = LoginViewModel(provider: provider)
         viewModel.tokenObservable
-            .subscribe(onNext: { (token) in
+            .subscribe(onNext: { [unowned self] (token) in
                 KeychainService.token = token
+                NavigationRouter.showSearchViewController(from: self)
             })
             .disposed(by: disposeBag)
     }
@@ -50,5 +51,9 @@ extension LoginViewController: UIWebViewDelegate {
         } else {
             return true
         }
+    }
+    
+    func webView(_ webView: UIWebView, didFailLoadWithError error: Error) {
+        NavigationRouter.showSearchViewController(from: self)                 // Offline mode 
     }
 }
