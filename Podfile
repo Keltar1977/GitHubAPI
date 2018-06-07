@@ -21,7 +21,6 @@ target 'github-api' do
     pod 'Moya-ObjectMapper/RxSwift'
     
     # Other
-    # pod 'RxMediaPicker'
     pod 'KeychainAccess'
     
 end
